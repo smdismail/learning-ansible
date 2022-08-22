@@ -1,14 +1,17 @@
-- name: play1
+- name: Play1
   hosts: all
   tasks:
-    - name: task1 in play1
+    - name: Task1 in Play1
       ansible.builtin.debug:
-        msg: Task1 in Paly1
+        msg: Task1 in Play1
 
-    - name: Task2 in play2
+    - name: Task1 in Play1
       ansible.builtin.debug:
-        msg: Task2 in play2
+        msg: Task2 in Play1
 
-    - name: Task2 in play2
+- name: Play2
+  hosts: all
+  tasks:
+    - name: Task1 in Play2
       ansible.builtin.debug:
-        msg: Task2 in play2
+        msg: Task1 in Play2
