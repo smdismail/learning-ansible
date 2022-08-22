@@ -8,3 +8,7 @@
     - name: Task2 in play2
       ansible.builtin.debug:
         msg: Task2 in play2
+
+    - name: Task2 in play2
+      ansible.builtin.debug:
+        msg: Task2 in play2
