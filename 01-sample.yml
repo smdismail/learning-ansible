@@ -10,8 +10,8 @@
         msg: Task1 in Play2
 
 - name: Play2
-  hosts: all
+  hosts: localhost
   tasks:
-    - name: Task1 in Play2
+    - name: Task2 in Play1
       ansible.builtin.debug:
-        msg: Task1 in Play2
+        msg: Task2 in Play1
