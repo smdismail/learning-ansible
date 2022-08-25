@@ -4,6 +4,6 @@
     URL: www.ismail.com
 
   tasks:
-    - name: print URL
+    - name: Print URL
       ansible.builtin.debug:
         msg: URL = (( URL ))
