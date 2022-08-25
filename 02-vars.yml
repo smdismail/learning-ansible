@@ -1,5 +1,5 @@
 - name: Variable
-  hosts: All
+  hosts: all
   vars:
     URL: www.ismail.com
 
